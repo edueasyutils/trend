@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>콘텐츠 자동화와 할 일 정리 — Muse 활용법 Top 5 (2026-10-09)</title>
+<style>
+  body{font-family:-apple-system,'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif;line-height:1.75;color:#222;max-width:760px;margin:0 auto;padding:28px 20px;background:#fafafa}
+  header{background:#0b5fff;color:#fff;border-radius:12px;padding:26px 24px;margin-bottom:22px}
+  header h1{margin:0 0 8px;font-size:1.55em}
+  header p{margin:4px 0;opacity:.92;font-size:.95em}
+  .notice{background:#fff1f1;border:1px solid #e8a0a0;border-radius:10px;padding:16px 18px;margin-bottom:20px;font-size:.95em}
+  .summary{background:#fff;border:2px solid #0b5fff;border-radius:10px;padding:16px 18px;margin-bottom:20px;font-size:.98em}
+  .card{background:#fff;border:1px solid #e5e5e5;border-radius:12px;padding:22px 22px;margin-bottom:18px}
+  .card h2{margin:0 0 10px;font-size:1.18em;color:#0b5fff}
+  .rank{display:inline-block;background:#0b5fff;color:#fff;font-weight:700;border-radius:8px;padding:2px 10px;margin-right:8px;font-size:.85em}
+  .meta{font-size:.82em;color:#777;margin:10px 0}
+  .src{font-size:.82em;margin-top:12px;padding-top:10px;border-top:1px dashed #ddd;color:#555}
+  .src a{color:#0b5fff;word-break:break-all}
+  .box{background:#f3f4f6;border:1px solid #e0e0e0;border-radius:10px;padding:16px 18px;margin-bottom:18px;font-size:.94em}
+  .box h3{margin:0 0 8px;font-size:1em;color:#444}
+  .warn{background:#fff1f1;border:1px solid #e8a0a0}
+  .warn h3{color:#a33}
+  footer{font-size:.8em;color:#888;margin-top:26px;border-top:1px solid #ddd;padding-top:14px}
+  footer a{color:#0b5fff;word-break:break-all}
+  .tag{display:inline-block;background:#eee;border-radius:6px;padding:1px 8px;font-size:.75em;color:#555;margin-right:6px}
+  .tagx{background:#000;color:#fff;border-radius:6px;padding:1px 8px;font-size:.75em;margin-right:6px}
+  .caution-note{background:#fffbe8;border:1px dashed #d9b800;border-radius:8px;padding:10px 14px;margin-top:12px;font-size:.88em}
+  .footnote{font-size:.88em;background:#f9f9f9;border-left:3px solid #ccc;padding:10px 14px;margin-top:14px;color:#555}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>콘텐츠 자동화와 할 일 정리 — Muse 활용법 Top 5</h1>
+  <p>2026년 10월 9일 (KST) — Meta의 개인 AI 에이전트 Muse(muse.ai) 사용자들의 소셜 활용법</p>
+  <p>조사 기준: 2026-10-09 06:59~07:01 KST Threads 직접 조회(threads-cli) 기준. X는 세션 만료로 직접 조회 중단</p>
+</header>
+
+<div class="notice">
+  <strong>📡 오늘은 새로운 소식이 제한적입니다 — X 직접 조회 중단 안내.</strong><br>
+  오늘 신규 사용자 사례 중 가장 큰 반응은 좋아요 25 수준으로, 100+ 좋아요 사례는 없었습니다. 어제 복원됐던 X 직접 조회는 @muse_x_account 세션 만료·로그인 월로 중단됐고, X 항목은 웹 인덱싱 단서 수준에서만 확인했습니다(원문 미확인). Reddit 신규 원문도 확보하지 못해 <strong>7일 연속 공백(10/3~10/9)</strong>이 이어지고 있습니다. 재로그인은 David가 직접 해야 합니다.
+</div>
+
+<div class="summary">
+  <strong>📰 오늘의 한 줄 요약:</strong> Threads에서 포착된 신규 각도는 세 가지 — ElevenLabs 보이스오버 생성과 2일 주기 다채널 업로드 예약을 묶은 콘텐츠 자동화(@riskinovanda, 좋아요 25), ADHD 사용자의 할 일 우선순위화 실경험(@a___wildflower, 15개 처리·작성자 후기), 그리고 Muse·Dots·Grok Bot을 한 CLI로 묶는 비공식 도구 소개(@bigbear.kv)입니다. 여기에 가입 대행 프롬프트에 최소권한 안전장치를 명문화한 한국어 공유(@lazyworkingmom_lab)가 더해졌습니다.
+</div>
+
+<article class="card">
+  <h2><span class="rank">1</span>콘텐츠 자동화 2종 — ElevenLabs 보이스오버 + 2일 주기 다채널 업로드 예약</h2>
+  <span class="tag">Threads 직접 조회</span><span class="tag">콘텐츠 자동화</span><span class="tag">오늘 최강 신규 신호</span>
+  <p>Threads @riskinovanda(팔로워 213, 인도네시아어, 2026-10-08 18:42 KST 게시)는 Meta Muse를 처음 써 본 첫인상을 공유하며 맡긴 작업 2가지를 소개했습니다. (1) 인터랙티브 앱 개발용 보이스오버를 ElevenLabs 웹에서 직접 생성하게 한 것, (2) 콘텐츠 리서치→제작→인스타그램·Threads·TikTok 업로드를 2일마다 반복하는 정기 일정을 만든 것입니다. 작성자는 Muse를 "개인 직원"에 비유하는 톤으로 전했습니다.</p>
+  <p>이 포스트는 말미에 리퍼럴 코드와 VPN 가입 절차가 함께 붙은 <strong>홍보 혼합형 포스트</strong>입니다. 이 리포트에서는 활용법 부분만 분리해 다룹니다. 캐러셀 스크린샷에 담긴 세부 수치 등은 캡션 원문으로 확인되지 않아 본문에 쓰지 않았습니다.</p>
+  <div class="meta">반응 지표: 좋아요 25·댓글 5 수준 (2026-10-09 06:59~07:01 KST threads-cli 직접 조회 기준)</div>
+  <div class="src">출처: <a href="https://www.threads.com/@riskinovanda/post/DeOo3aFHxA0">threads.com/@riskinovanda — 콘텐츠 자동화 공유</a> (2026-10-08 KST)</div>
+</article>
+
+<article class="card">
+  <h2><span class="rank">2</span>ADHD 할 일 우선순위화 실경험 — 목록을 만들고 15개 처리</h2>
+  <span class="tag">Threads 직접 조회</span><span class="tag">한국어 후기</span><span class="tag">작성자 후기 한정</span>
+  <p>Threads @a___wildflower(팔로워 1,648, 한국어, 2026-10-07 07:51 KST 게시)는 머릿속에 계속 떠오르는 할 일을 Muse에 계속 입력해 우선순위를 매긴 목록을 만들게 했고, 그 순서대로 15가지 일을 처리했다는 첫 활용 후기를 남겼습니다. 작성자에 따르면 메모장·투두 앱·캘린더가 그동안 맞지 않았던 ADHD 사용자에게 특히 도움이 됐다는 소감이며, 못 끝낸 일은 기록해 다음 날 목록으로 이어갔다고 합니다.</p>
+  <p>이는 <strong>단일 사용자의 후기</strong>로, 효과를 단정할 수 없습니다. "구상 공유"가 아니라 실제 수행 결과(15개 처리)를 적은 실경험이라는 점에서만 구분해 읽어주세요.</p>
+  <div class="footnote">
+    <strong>각주 — 공식 계정과의 대비:</strong> Threads @meta 공식 계정(2026-10-08 05:47 KST, 좋아요 215)은 "daily musecase" 시리즈로, 2025년에 버려둔 할 일 목록을 Muse에게 건네 시도해 보라는 프롬프트 아이디어를 제안했습니다. 이는 <strong>Meta 공식 마케팅 포스트</strong>로 사용자 활용법이 아니며, 위 실경험과 주제가 맞물려 대비용으로만 둡니다. 출처: <a href="https://www.threads.com/@meta/post/DeNQJngHU7J">threads.com/@meta — daily musecase</a> (2026-10-08 KST)
+  </div>
+  <div class="meta">반응 지표: 좋아요 8 (2026-10-09 06:59~07:01 KST threads-cli 직접 조회 기준)</div>
+  <div class="src">출처: <a href="https://www.threads.com/@a___wildflower/post/DeK5gQ_gPKE">threads.com/@a___wildflower — 할 일 우선순위화 후기</a> (2026-10-07 KST)</div>
+</article>
+
+<article class="card">
+  <h2><span class="rank">3</span>trinity-cli 소개 — Muse·Dots·Grok Bot을 한 CLI로 묶는 비공식 도구</h2>
+  <span class="tag">Threads 직접 조회</span><span class="tag">개발자 도구</span><span class="tag">비공식 도구</span>
+  <p>Threads @bigbear.kv(팔로워 483, 중국어, 2026-10-09 06:57 KST 게시)는 상시 켜진 에이전트 3개 — ChatGPT의 Dots, Grok Bot, Meta Muse — 를 하나의 명령 체계로 묶는 비공식 도구 trinity-cli를 소개했습니다. 소개된 기능은 상태 확인, 새 메시지를 한 타임라인으로 모아 보기, 같은 질문을 3개에 동시 질의, 한 에이전트의 답변을 다른 에이전트에 전달(전달 전 사용자 승인) 등입니다.</p>
+  <p>작성자 스스로 이 도구가 <strong>비공식 도구이며 공개 문서 없는 인터페이스라 언제든 깨질 수 있고 계정 리스크는 사용자 책임</strong>이라고 명시했습니다. 독립 검증은 없으며, 이 리포트는 "에이전트들을 오케스트레이션하는 사용자 생태계"라는 신규 각도로만 기록하고 사용을 권유하지 않습니다. 게시 직후 수집이라 반응 지표는 낮습니다.</p>
+  <div class="meta">반응 지표: 좋아요 0 (게시 직후 수집, 2026-10-09 06:59~07:01 KST threads-cli 직접 조회 기준)</div>
+  <div class="src">출처: <a href="https://www.threads.com/@bigbear.kv/post/DeP85h2mGyk">threads.com/@bigbear.kv — trinity-cli 소개</a> (2026-10-09 KST)</div>
+</article>
+
+<article class="card">
+  <h2><span class="rank">4</span>다른 AI 클라우드 브라우저로 Muse 가입하기 — 안전장치를 못 박은 프롬프트</h2>
+  <span class="tag">Threads 직접 조회</span><span class="tag">한국어</span><span class="tag">최소권한 각도</span>
+  <p>Threads @lazyworkingmom_lab(팔로워 98, 한국어, 2026-10-09 06:32 KST 게시)는 오늘 직접 가입했다는 공유를 남겼습니다. 핵심은 가입 절차를 다른 AI의 클라우드 브라우저에 맡기되, 안전장치를 프롬프트에 명문화한 점입니다 — 이메일·인증 코드·카드 정보는 본인이 직접 입력하고, 국가 제한·나이 확인 화면에서는 멈추며, 추천 코드 입력·앱 연결·타 계정 로그인은 시키지 않는다는 조건을 못 박았다고 합니다.</p>
+  <p>한국 사용자의 원격 브라우저 가입 우회 공유는 이전 브리프(9/27~10/2)에서도 다룬 계열로, 이 항목과는 <strong>부분적으로 겹칩니다</strong>. 신규성은 "가입 대행 프롬프트에 최소권한 안전장치를 명문화"한 각도에만 있으며, 공식 가입 방법으로 읽어서는 안 됩니다. 게시 직후 수집이라 반응 지표는 낮습니다.</p>
+  <div class="meta">반응 지표: 좋아요 0 (게시 직후 수집, 2026-10-09 06:59~07:01 KST threads-cli 직접 조회 기준)</div>
+  <div class="src">출처: <a href="https://www.threads.com/@lazyworkingmom_lab/post/DeP6HQ3E54n">threads.com/@lazyworkingmom_lab — 가입 안전장치 프롬프트</a> (2026-10-09 KST)</div>
+</article>
+
+<article class="card">
+  <h2><span class="rank">5</span>확인 필요 박스 — X 세션 만료와 원문 미확인 단서 2건</h2>
+  <span class="tag">확인 필요</span><span class="tag">투명성 안내</span>
+  <p><strong>오늘 X 직접 조회는 세션 만료로 중단됐습니다.</strong> @muse_x_account 세션이 만료돼 로그인 월이 표시됐고, X 원문을 직접 열지 못했습니다. 아래 2건은 웹 인덱싱 단서 수준에서만 존재하며 원문을 확인하지 못했으므로, 사실로 쓰지 않고 "원문 미확인 — 확인 필요"로만 표기합니다.</p>
+  <p>① <strong>@AlexFinn 온보딩 가이드 단서</strong> — 기존 X 팔로워 대상 Muse 온보딩 가이드를 공유했다는 인덱싱 단서가 있었으나, 오늘 교차 확인에서 해당 포스트를 특정할 결과를 찾지 못했습니다. <em>원문 미확인.</em> 어제 다룬 @AlexFinn의 6가지 자동화 워크스루와는 별개 항목으로 섞지 않습니다.<br>
+  ② <strong>@eugeniakyta 커넥터 단서</strong> — Meta Muse가 커넥터를 네이티브로 지원한다는 취지의 게시 단서가 있었으나, 오늘 교차 확인에서 해당 X 원문을 찾지 못했습니다. <em>원문 미확인.</em></p>
+  <p>배경으로, 어제 Threads에서 언급된 iPad 앱·신규 커넥터 주장은 복수 테크 매체 보도의 내용과 방향이 일치하는 것으로 보이나, 소스 규칙상 본문 근거로 삼지 않고 배경 추정 수준으로만 둡니다.</p>
+  <div class="meta">상태: X 원문 확보 0건 (2026-10-09 조사 기준). Reddit도 7일 연속 공백으로 신규 원문 없음.</div>
+  <div class="src">근거: X 직접 조회 중단 기록(x_findings_20261009.md) 및 Newton 브리프의 "확인 필요" 분류 (2026-10-09)</div>
+</article>
+
+<div class="box warn">
+  <h3>⚠️ 주의 — 리퍼럴 코드 스팸 패턴 7일 연속 확산</h3>
+  <p>초대·리퍼럴 코드를 내세우는 스팸 패턴이 <strong>7일 연속</strong> 확산 중입니다. 오늘 새로 포착된 코드는 SYX8VO, SB1EJ6, IQMQKM 3건으로, 일부는 위 Top 5 항목의 원문 말미에도 붙어 있었습니다. 이 리포트에서는 해당 코드를 혜택으로 소개하지 않으며, 댓글·바이오·포스트 말미에 붙는 스팸 패턴으로 주의해 주세요.</p>
+</div>
+
+<div class="box">
+  <h3>🌐 배경 신호 — 공유 페이지·프라이버시·피로도</h3>
+  <p>Threads @qrunnnnnn(2026-10-09 06:57 KST, 좋아요 0·게시 직후)은 습관 트래커 한 페이지를 muse.ai/s/ 공유 링크로 배포했습니다. 공유 페이지 배포 계열의 약한 반복 신호로 기록합니다. (<a href="https://www.threads.com/@qrunnnnnn/post/DeP85j1jN7F">threads.com/@qrunnnnnn</a>)</p>
+  <p>Threads @mountainhermitauthor(2026-10-09 06:51 KST, 좋아요 0)는 제3자의 정보가 동의 없이 처리되는 프라이버시 문제를 제기하는 기사 기여를 공유했습니다. 이전 프라이버시 경고와 같은 계열의 배경 신호입니다. (<a href="https://www.threads.com/@mountainhermitauthor/post/DeP8PPnkhpF">threads.com/@mountainhermitauthor</a>)</p>
+  <p>Threads @pastebaby(2026-10-09, 좋아요 0)는 앱 곳곳에 삽입되는 Meta·Muse AI에 대한 거부감을 표출했습니다. 대중 피로도 신호로 배경용으로만 다룹니다. (threads-cli search 직접 조회, 2026-10-09 06:59 KST)</p>
+</div>
+
+<div class="caution-note">
+  <strong>⚠️ 자료 한계 안내:</strong> 오늘 리포트의 Threads 사실 관계는 threads-cli로 직접 조회한 원문(2026-10-09 06:59~07:01 KST 수집, 캡션·좋아요·KST 게시 시각 확인)에 근거합니다. X는 세션 만료로 직접 조회를 중단해 원문 확보가 0건이며, 단서 2건은 "확인 필요" 박스에서만 다뤘습니다. Reddit은 웹 검색 무결과와 열람 차단으로 7일 연속(10/3~10/9) 신규 원문이 없습니다. 테크 매체 보도는 소스로 사용하지 않았습니다.
+</div>
+
+<footer>
+  <strong>출처 목록</strong> (모든 날짜는 KST)
+  <ol>
+    <li><a href="https://www.threads.com/@riskinovanda/post/DeOo3aFHxA0">@riskinovanda — ElevenLabs 보이스오버 + 2일 주기 콘텐츠 자동화 (10/8, Threads 직접 조회)</a></li>
+    <li><a href="https://www.threads.com/@a___wildflower/post/DeK5gQ_gPKE">@a___wildflower — ADHD 할 일 우선순위화 실경험, 15개 처리 (10/7, Threads 직접 조회, 작성자 후기 한정)</a></li>
+    <li><a href="https://www.threads.com/@meta/post/DeNQJngHU7J">@meta (공식) — "daily musecase" 프롬프트 제안 (10/8, 공식 마케팅, 각주용)</a></li>
+    <li><a href="https://www.threads.com/@bigbear.kv/post/DeP85h2mGyk">@bigbear.kv — trinity-cli 소개 (10/9, Threads 직접 조회, 비공식 도구)</a></li>
+    <li><a href="https://www.threads.com/@lazyworkingmom_lab/post/DeP6HQ3E54n">@lazyworkingmom_lab — 다른 AI 클라우드 브라우저 가입 + 안전장치 프롬프트 (10/9, Threads 직접 조회)</a></li>
+    <li><a href="https://www.threads.com/@qrunnnnnn/post/DeP85j1jN7F">@qrunnnnnn — muse.ai/s/ 습관 트래커 공유 (10/9, 배경용)</a></li>
+    <li><a href="https://www.threads.com/@mountainhermitauthor/post/DeP8PPnkhpF">@mountainhermitauthor — 제3자 프라이버시 문제 제기 (10/9, 배경용)</a></li>
+  </ol>
+  <p>이 리포트의 "Muse"는 Meta의 개인 AI 에이전트 제품(muse.ai)입니다. Anthropic의 Claude·OpenAI의 Dots·xAI의 Grok Bot·Meta의 코딩 에이전트 Muse Code·Microsoft의 게임용 Muse와 무관합니다. 미검증 주장은 "작성자 후기" 또는 "원문 미확인 — 확인 필요"로 한정했습니다. X 직접 조회는 세션 만료로 중단됐습니다.</p>
+</footer>
+
+</body>
+</html>
